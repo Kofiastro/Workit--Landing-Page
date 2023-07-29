@@ -2,6 +2,12 @@
 module.exports = {
   content: ['./*.html'],
   theme: {
+    screens: {
+      sm: '375px',
+      md: '768px',
+      lg: '1020px',
+      xl: '1440px',
+    },
     extend: {
       fontFamily:{
         Fraunces:['Fraunces', 'san-serif'],
@@ -19,4 +25,3 @@ module.exports = {
   },
   plugins: [],
 }
-
