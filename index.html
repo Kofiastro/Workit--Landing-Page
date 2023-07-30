@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;1,9..144,600&family=Manrope&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700;9..144,800&family=Manrope:wght@400;700;800&display=swap"
     rel="stylesheet">
   <!--CSS-->
   <link rel="stylesheet" href="./css/style.css">
@@ -18,16 +18,88 @@
 </head>
 
 <body>
-<!--Hero Section-->
-  <section id="hero Section">
-    
-
+  <!--Hero Section-->
+  <section id="Hero" class="bg-hero">
+    <div class=" mx-4 flex justify-between py-8 mb-6 ">
+      <img src="./assets/images/logo-light.svg" alt="logoLight" class="">
+      <h1 class="font-Manrope text-white border-b-4 border-LimeGreen ">
+        Apply for Access
+      </h1>
+    </div>
+    <div class=" mx-auto text-center  ">
+      <h1 class="text-white text-4xl font-Fraunces tracking-wide px-6 font-bold mb-10">Data <span
+          class="border-b-4 border-LimeGreen">tailored</span> to your needs.</h1>
+      <button class=" text-navyBlue font-bold p-4 bg-LimeGreen font-Manrope">
+        Learn more
+      </button>
+      <div class="flex items-center justify-center">
+        <img src="./assets/images/image-hero.webp" alt="Mobile_image"
+          class="absolute w-72 top-96 md:w-1/2 md:top-96 lg:w-1/3 lg:top-80">
+      </div>
+    </div>
   </section>
-
-
-  <footer>
-
-  </footer>
+  <!--Feature Section-->
+  <section class="bg-hero1">
+    <div class="lg:flex lg:items-baseline lg:mx-20">
+      <!--One-->
+      <div
+        class="mx-auto px-6 flex space-y-6 md:space-x-6 flex-col items-center  pt-32  font-Fraunces md:flex-row md:mx-12 md:pt-44 lg:max-w-md lg:flex-col lg:pt-48">
+        <h1 class="border-2 p-4 px-6  border-lightkhaki rounded-full ">
+          1
+        </h1>
+        <div class=" text-center md:text-left lg:text-center">
+          <h2 class=" text-2xl ">Actionable insights</h2>
+          <p class="font-Manrope tracking-widest ">Optimize your products, improve customer satisfaction and stay ahead
+            of the
+            competition with our product data analytics.</p>
+        </div>
+      </div>
+      <!--Two-->
+      <div
+        class="mx-auto px-6 flex space-y-6 md:space-x-6 flex-col items-center  pt-12  font-Fraunces md:flex-row md:mx-12 lg:max-w-md lg:flex-col">
+        <h1 class="border-2 p-4 px-6 border-lightkhaki rounded-full">
+          2
+        </h1>
+        <div class=" text-center mx-auto md:text-left lg:text-center">
+          <h2 class=" text-2xl ">Data-driven decisions</h2>
+          <p class="font-Manrope tracking-widest">Make data-driven decisions with our product data analytics. Our
+            AI-generated
+            reports help you unlock insights hidden in your product data</p>
+        </div>
+      </div>
+      <!--Three-->
+      <div
+        class="mx-auto px-6 flex space-y-6 md:space-x-6 flex-col items-center pt-12 pb-20 font-Fraunces md:flex-row md:mx-12 lg:max-w-md lg:flex-col">
+        <h1 class="border-2 p-4 px-6 border-lightkhaki rounded-full">
+          3
+        </h1>
+        <div class="text-center md:text-left lg:text-center">
+          <h2 class=" text-2xl ">Always affordable</h2>
+          <p class="font-Manrope tracking-widest">Always affordable pricing that scales with your business. Get
+            top-quality
+            product data analytics services without hidden costs or unexpected fees</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--CTA SECTION-->
+  <section>
+    <div class=" absolute -bottom-96 -mb-16 px-16 flex place-items-center ">
+      <img src="./assets/images/image-founder.webp" class=" w-64 -bottom-4" alt="Founder_image">
+    </div>
+    <div class="relative bg-navyBlue space-y-4 p-6  text-center text-white mx-4 mt-60">
+      <h1 class="font-Fraunces font-md text-4xl ">
+        Be the first to test
+      </h1>
+      <p class="font-Manrope font-extralight">
+        Hi, I'm Louis Graham, the founder of the company. Book a demo call with me to become a beta tester for our app
+        and kickstart your company. Apply for access below and I’ll be in touch to schedule a call.
+      </p>
+      <button class=" text-navyBlue font-bold p-4 bg-LimeGreen font-Manrope">
+        Apply for access
+      </button>
+    </div>
+  </section>
 </body>
 
 </html>
