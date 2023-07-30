@@ -17,4 +17,46 @@
     width: 100%;
     @apply bg-GrayishPink overflow-hidden ;
   }
-  
+
+
+  @media screen(md){
+    .bg-hero {
+        border-radius: 500px/80px;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+        width: 100%;
+        height:500px;
+        @apply bg-navyBlue overflow-hidden ;
+      }
+}
+@media screen(md){
+    .bg-hero1 {
+        border-radius: 500px/80px;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+        width: 100%;
+        height:800px;
+        @apply bg-GrayishPink overflow-hidden ;
+      }
+}
+ 
+  @media screen(lg){
+    .bg-hero {
+        border-radius: 500px/80px;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+        width: 100%;
+        height:600px;
+        @apply bg-navyBlue overflow-hidden ;
+      }
+}
+@media screen(lg){
+    .bg-hero1 {
+        border-radius: 500px/80px;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+        width: 100%;
+        height:800px;
+        @apply bg-GrayishPink overflow-hidden ;
+      }
+}
